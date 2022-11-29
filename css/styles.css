@@ -269,11 +269,13 @@ header nav .nav-menu {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    
 }
 
 .portfolio .cards li {
     margin-bottom: 20px;
     width: 360px;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .portfolio .cards li a h2 {
@@ -288,10 +290,8 @@ header nav .nav-menu {
 
 /* Sección del pie de página */
 footer {
-    width: 1600px;
-    height: 252px;
     background-color: var(--background-black);
-    padding: 40px;
+    padding: 94px 0;
 }
 
 address .contact {
