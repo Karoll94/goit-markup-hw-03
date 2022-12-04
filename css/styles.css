@@ -157,6 +157,7 @@ a {
     background-color: var(--primary-white-color-color);
     text-align: center;
     list-style: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team h2 {
@@ -167,7 +168,6 @@ a {
 
 .team p {
     color: var(--primary-text-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Sección del encabezado */
@@ -185,6 +185,7 @@ header nav {
     gap: 100px;
 }
 
+
 .logo {
     padding: 40px;
     color: var(--accent-color);
@@ -200,6 +201,7 @@ header nav .nav-menu {
     display: flex;
     list-style: none;
     gap: 80px;
+    margin-right: 150px;
 }
 
 .nav-menu .page {
@@ -217,6 +219,7 @@ header nav .nav-menu {
     display: flex;
     list-style: none;
     gap: 80px;
+    margin-left: 50px;
 }
 
 .contacts-menu .item {
@@ -251,7 +254,7 @@ header nav .nav-menu {
     font-weight: 900;
     line-height: 1.3em;
     text-transform: capitalize;
-
+    padding: 20%;
 }
 
 /* Sección del portafolio  */
