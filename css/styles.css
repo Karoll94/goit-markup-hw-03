@@ -158,6 +158,7 @@ a {
     text-align: center;
     list-style: none;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom: 30px;
 }
 
 .team h2 {
@@ -254,7 +255,7 @@ header nav .nav-menu {
     font-weight: 900;
     line-height: 1.3em;
     text-transform: capitalize;
-    padding: 20%;
+    padding: 5% 25%;
 }
 
 /* Sección del portafolio  */
